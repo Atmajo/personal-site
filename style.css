@@ -3,6 +3,7 @@
 .container {
     max-width: 80vw;
     font-family: 'Raleway', sans-serif;
+    color: azure;
 }
 .header {
     margin: 40px;
