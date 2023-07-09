@@ -25,7 +25,7 @@
 .navbar li a:hover {
     text-decoration: none;
     color: #ae31bf;
-    border-bottom: 1px solid rgb(155, 101, 205);
+    border-bottom: 2px solid rgb(155, 101, 205);
     border-radius: 6px;
     padding: 5px;
 }
