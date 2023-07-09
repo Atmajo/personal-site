@@ -3,62 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Atmajo - Portfolio</title>
 </head>
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="atmajo.png" draggable="true"></td>
-            <td><h1 draggable="true">Atmajo Chowdhury</h1>
-                <br>
-                <p>Hi, this is Atmajo Chowdhury, currently BTech Student at University of Engineering and Management, Kolkata studying computer 
-                    science and engineering.</p>
-            </td>
-        </tr>
-    </table>
-    <hr size="3" noshade>
-    <h3>Education</h3>
-    <table border="2">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Education</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2011 - 2022</td>
-                <td>The Aryans School</td>
-            </tr>
-            <tr>
-                <td>2022 - Still</td>
-                <td>The University of Engineering and Management, Kolkata</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Skills</h3>
-    <table border="2">
-        <tbody>
-            <tr>
-                <td>Web Development</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>Photography</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Projects</h3>
-    <table border="2">
-        <tbody>
-            <tr>
-                <td>Personal Profile</td>
-            </tr>
-            <tr>
-                <td>Calculator</td>
-            </tr>
-        </tbody>
-    </table>
-    <h3>Contact</h3>
-    <a href="contact.html">Contact</a>
+    <div class="container mx-auto">
+        <header class="header">
+            <nav class="flex justify-between item-center my-2 {
+                margin-top: 26px;
+                margin-bottom: 26px;
+            }">
+                <div class="font-bold flex item-center logo">atmajo.</div>
+                <ul class="navbar flex item-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section class="section1 flex item-center justify-between">
+                <div class="left">
+                    Hi, My name is <span class="span font-bold">Atmajo</span>
+                    <div>and I am </div>
+                    <span id="element" class="font-bold"></span>
+                </div>
+                <div class="right">
+                    <img src="images/dp.png" class="dp">
+                </div>
+            </section>
+            <hr>
+            <h1 class="sec2h1 text-align my-2">Skills</h1>
+            <section class="section2 my-2 flex item-center justify-around">
+                
+                <div class="leftsk">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Web Development</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">C Program</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Java Program</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="rightsk">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Python Program</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Leadership</th>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Photography</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer,', 'ACM UEMK Secretary'],
+              typeSpeed: 50,
+            });
+        </script>
+        <footer>
+            Copyright &copy; atmajo.github.io/personal-site | All rights reserved
+        </footer>
+    </div>
 </body>
 </html>

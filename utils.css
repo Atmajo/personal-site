@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F3;
+}
+
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-blue{
+    background-color: aqua;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}

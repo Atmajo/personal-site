@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Raleway:wght@200&display=swap');
+.container {
+    max-width: 80vw;
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+    margin: 40px;
+    height: 40px;
+}
+.logo {
+    color: #ae31bf;
+    font-size: 2.5rem;
+    font-family: 'Fasthand', cursive;
+}
+.navbar li {
+    list-style: none;
+    margin: 10px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #ae31bf;
+}
+.navbar li a:hover {
+    text-decoration: none;
+    color: #ae31bf;
+    border-bottom: 1px solid rgb(155, 101, 205);
+    border-radius: 6px;
+    padding: 5px;
+}
+.section1 > div {
+    width: 60%;
+    margin: 80px 0;
+}
+.left {
+    padding: 20px;
+    font-size: 3rem;
+}
+.span {
+    color: #ae31bf;
+}
+#element {
+    color: #ae31bf;
+}
+.right {
+    width: 80%;
+}
+.dp {
+    width: 90%;
+}
+hr {
+    border: 0;
+    background: #ae31bf;
+    height: 1px;
+}
+.sec2h1 {
+    font-size: 3rem;
+}
+.text-align {
+    text-align: center;
+}
+.my-2 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.leftsk > table > tbody > tr >th {
+    font-size: 20px;
+    padding: 20px;
+}
+.rightsk > table > tbody > tr >th {
+    font-size: 20px;
+    padding: 20px;
+}
+.leftsk {
+    border: 1px solid #ae31bf;
+    border-radius: 20px;
+}
+.rightsk {
+    border: 1px solid #ae31bf;
+    border-radius: 20px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
