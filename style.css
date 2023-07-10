@@ -80,7 +80,32 @@ hr {
     border: 1px solid #ae31bf;
     border-radius: 20px;
 }
+.sec3h1 {
+    font-size: 3rem;
+}
 footer{
     padding: 23px;
     text-align: center;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid #e6a8ef;
+    padding: 15px 0;
+} 
+.section3 table td{   
+    border-bottom: 2px solid #e6a8ef; 
+} 
+table > thead > tr > th {
+    font-size: 1.5rem;
 }
