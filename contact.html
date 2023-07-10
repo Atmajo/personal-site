@@ -4,21 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
     <title>Contact</title>
 </head>
 <body>
-    <li>Phone No: 6291240981</li>
-    <li>Alt Mobile No: 9163104960</li>
-    <li>Email: atmajoc@gmail.com</li>
-    <hr>
-    <form action="mailto:atmajoc@gmail.com" method="post" enctype="text/plain">
-        <label>Name:</label>
-        <input type="name" name="yourName"><br>
-        <label>Email:</label>
-        <input type="email" name="yourEmail"><br>
-        <label>Message</label><br>
-        <textarea name="yourName" cols="30" rows="10"></textarea><br>
-        <input type="submit" class="submit">
-    </form>
+    <div class="ccontainer mx-auto">
+        <header class="header">
+            <nav class="flex justify-between item-center my-2 {
+                margin-top: 26px;
+                margin-bottom: 26px;
+            }">
+                <div class="font-bold flex item-center logo">atmajo.</div>
+                <ul class="navbar flex item-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://drive.google.com/file/d/1nmyoltErdMYAPV8jN46IV1l8y0JY-q0t/view?usp=sharing"
+                        download="Resume">Resume</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <hr>
+        <div>
+            <h1>Connect with us</h1>
+            <p>Please share the query you have. <br>
+                Feel free to get in touch.</p>
+        </div>
+        <div class="contact-box flex">
+            <div class="cont-left">
+                <div>Send your request</div>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="James Bond">
+                        </div>
+                    
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="+91 12345 67890">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="james007@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Subject">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+                
+            </div>
+            <div class="cont-right font-bold">
+                <div>Reach Us</div>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>atmajoc@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+91 6291 240 981</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>71, Vivekananda Road,<br> 
+                                Mitrapara, Panihati, <br>
+                                Kolkata - 700114
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

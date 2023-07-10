@@ -109,3 +109,80 @@ footer{
 table > thead > tr > th {
     font-size: 1.5rem;
 }
+.ccontainer {
+    padding: 20px;
+    max-width: 80vw;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+}
+.contact-box {
+    margin-top: 40px;
+}
+.cont-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.cont-left>div {
+    padding-bottom: 20px;
+}
+.cont-right {
+    flex-basis: 60%;
+    padding: 40px;
+    color: azure;
+    border: 1px solid #e6a8ef;
+    border-radius: 8px;
+}
+.cont-right>div {
+    padding-bottom: 20px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-group {
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: 6px;
+    display: block;
+}
+button{
+    background-color: #e6a8ef;
+    width: 80px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 10px 0px rgb(109, 86, 112);
+}
+tr td:first-child {
+    padding-right: 20px;
+}
+tr td {
+    padding-top: 20px;
+}
+p{
+    padding: 5px;
+}
+h1 {
+    padding-top: 5px;
+}
